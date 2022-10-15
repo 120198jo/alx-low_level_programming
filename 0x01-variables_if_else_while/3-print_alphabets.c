@@ -1,22 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - program entry point 
- * Return: 0 no error, non zero if error
- */
+ * main - Entry point
+ *@void: Null value
+ *
+ *Description: Print alphabet lower case
+ *Return: zero value
+*/
+
 int main(void)
-{ 
-	char i;	
+{
+	char c, b;
 
-	for (i = 'a'; i <= 'z'; i++)
-	{
-		putchar(i);
-	}
-	for (i = 'A'; i <= 'Z'; i++)
-	{ 
-		putchar(i);
-	}
-
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+	for (b = 'A'; b <= 'Z'; b++)
+		putchar(b);
 	putchar('\n');
 	return (0);
 }
