@@ -4,7 +4,7 @@
  * main - Entry point
  *@void: Null value
  *
- *Description: Print alphabet lower case
+ *Description: Print alphabet lowercase
  *Return: zero value
 */
 
