@@ -4,7 +4,7 @@
  * main -Entry point
  * @void: Null value
  *
- * Description: print numbers from 0 to 99
+ * Description: print numbers from 00 to 99
  * Return: Zero value
  */
 
@@ -32,7 +32,7 @@ int main(void)
 		} 
 		i++;
 	}
+
 		putchar('\n');
 		return (0);
-	}
 }
