@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * main  - Entry point 
+ * main - Entry point 
  * @void: Null value
  *
- * Descrription: print alphabet in reverse
+ * Description: print alphabet in reverse
  * Return: Zero value
  */
 
