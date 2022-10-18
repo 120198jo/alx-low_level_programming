@@ -21,7 +21,7 @@ int main(void)
 		{
 			k = j + 1;
 			while (k <= 9)
-		}
+			{
 		putchar(i + '0');
 		putchar(j + '0');
 		putchar(k + '0');
@@ -33,8 +33,9 @@ int main(void)
 		k++;
 		count++;
 	}
-	j++;
-}
+	j++
+		}
+
 i++;
 }
 putchar('\n');
