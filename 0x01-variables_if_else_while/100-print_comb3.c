@@ -29,8 +29,9 @@ int main(void)
 			}
 			j++;
 			count++;
-		}
-
+		} 
+		i++;
+	}
 		putchar('\n');
 		return (0);
 	}
