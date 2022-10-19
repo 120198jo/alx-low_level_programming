@@ -1,19 +1,27 @@
 #include "main.h"
 
 /**
- * print_alphabet - print times in alpahabet in lowercase followed by new line
- *
+ * print_alphabet_x10 - print times in alpahabet in lowercase
+ * Return: Always 0
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char alpha;
+	int j;
 
-	alpha = 'a';
-	while (alpha <= 'z')
+	j = 0;
+
+	while (j < 10)
 	{
-		_putchar(alpha);
-		alpha++;
+		alpha = 'a';
+		while (alpha <= 'z')
+		{
+			_putchar(alpha);
+			alpha++;
+
 	}
 	_putchar('\n');
+	i++;
+	}
 }
