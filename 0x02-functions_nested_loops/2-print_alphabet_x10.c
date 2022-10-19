@@ -5,7 +5,7 @@
  *
  */
 
-void print_alphabet(void)
+void print_alphabe(void)
 {
 	char alpha;
 
