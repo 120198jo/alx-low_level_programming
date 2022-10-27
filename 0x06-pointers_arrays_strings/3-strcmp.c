@@ -2,8 +2,8 @@
 #include <string.h>
 /**
  * _strcmp - compares two strings
- * @s1: first string param
- * @s2: second string param
+ * @s1: first string
+ * @s2: second string
  * Return: if s1 == s2
  *         if s1 < s2
  *         if s1 > s2
