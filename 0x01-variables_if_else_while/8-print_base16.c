@@ -1,10 +1,11 @@
+
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main- Entry point
  * @void: Null value
  *
- * Description: print numbers of base 16
+ * Description: Print numbers of base 16
  * Return: Zero value
  */
 
@@ -16,7 +17,7 @@ int main(void)
 	for (n = '0'; n <= '9'; n++)
 		putchar(n);
 	for (c = 'a'; c <= 'f'; c++)
-		putchar(n);
+		putchar(c);
 	putchar('\n');
 	return (0);
 }
