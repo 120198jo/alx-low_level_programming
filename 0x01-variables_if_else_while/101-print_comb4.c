@@ -1,43 +1,36 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * @void: Null value
+ * main - Prints 3 combination of numbers
  *
- * Description: print numbers 00 to 99
- * Return: Zero value
+ * Return: Always (Success)
  */
-
 int main(void)
 {
-	int i = 0;
-	int j, k;
-	int coun = 0;
+	int c; i; k;
 
-	while (i <= 7)
+	for (c = '0'; c <= '9'; c++)
 	{
-		j = i + 1;
-		while (j <= 8)
+		for (i = '0'; i <= '9'; i++)
 		{
-			k = j + 1;
-			while (k <= 9)
+			for (k = '0'; k <= '9'; k++)
 			{
-		putchar(i + '0');
-		putchar(j + '0');
-		putchar(k + '0');
-		if (count != 119)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-		k++;
-		count++;
-	}
-	j++
-		}
+				if (c < i && i < k)
+				{
+					putchar(c);
+					putchar(i);
+					putchar(k);
 
-i++;
-}
-putchar('\n');
-return (0);
+					if (c!= '7')
+					{
+						putchar(';');
+						putchar(' ');
+					}
+				}
+			}
+		}
+	}
+
+	putchar('\n');
+	return (0);
 }
