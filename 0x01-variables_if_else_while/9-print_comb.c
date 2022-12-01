@@ -1,26 +1,25 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
- * main - Entry point
- * @void: Null value
+ * main - Prints a serie of numbers with commas
  *
- * Description: print numbers from 0 to 9 separated by comma and space
- * Return: Zero value
+ * Return: Always (Success)
  */
-
 int main(void)
 {
-	int n;
+	int c;
 
-	for (n = '0'; n <= '9'; n++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		putchar(n);
-		if (n != '9')
+		putchar(c);
+
+		if (c != '9')
 		{
 			putchar(',');
 			putchar(' ');
 		}
 	}
+
 	putchar('\n');
 	return (0);
 }
