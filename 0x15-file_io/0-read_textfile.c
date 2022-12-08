@@ -15,7 +15,7 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
-	ssize_t jsr, jsw;
+	ssize_t lenr, lenw;
 	char *buffer;
 
 	if (filename == NULL)
@@ -29,16 +29,16 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		close(fd);
 		return (0);
 	}
-	jsr = read(fd, buffer, letters);
+	lenr = read(fd, buffer, letters);
 	close(fd);
-	if (jsr == -1)
+	if (lenr == -1)
 	{
 		free(buffer);
 		return (0);
 	}
-	jsw = write(STDOUT_FILENO, buffer, jsr);
+	lenw = write(STDOUT_FILENO, buffer, lenr);
 	free(buffer);
-	if (jsr != jsw)
+	if (lenr != lenw)
 		return (0);
 	return (lenw);
 }
